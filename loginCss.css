@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #EDEDED;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+/* Estilização da div inicial*/
+#bar {
+    height: 56px;
+    background-color: #E3E2E2;
+}
+/* estilização da logo */
+.logoFocus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+
+/* estilização dos textos*/
+
+.tituloLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    font-size: 45px;
+    font-size: bold;
+}
+.subtituloLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 33px;
+    color: #959595;
+}
+
+/* estilização dos inputs */
+
+.inputsLogin{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:40px auto 10px auto;
+    gap: 30px;
+}
+.input{
+    border: none;
+    background-color: #E4E4E4;
+    border-radius: 20px;
+    height: 59px;
+    width: 516px;
+    padding: 9px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*estilização dos links */
+
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    text-decoration: none;
+}
+#links a {
+    color: #000;
+}
+
+/* estilização button */
+
+#botao-acessar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
+    background-color: #B6B6B6;
+    border: none;
+    color: #000;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 01.3s ease;
+}
+
+#botao-acessar:hover{
+    background-color: #bdbdbd;
+    box-shadow: 2px 2px 2px 1px #000;
+}
